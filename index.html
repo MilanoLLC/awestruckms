@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <!-- Page Title -->
+   <title>Awestruck PMS</title>
+
+   <!-- Meta Data -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="../../../assets/img/favicon.png">
+
+   <!-- Web Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+   <!-- ======= BEGIN GLOBAL MANDATORY STYLES ======= -->
+   <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../../../assets/fonts/icofont/icofont.min.css">
+   <link rel="stylesheet" href="../../../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.css">
+   <!-- ======= END BEGIN GLOBAL MANDATORY STYLES ======= -->
+
+   <!-- ======= MAIN STYLES ======= -->
+   <link rel="stylesheet" href="../../../assets/css/style.css">
+   <!-- ======= END MAIN STYLES ======= -->
+
+</head>
+
+<body>
+
+   <!-- Offcanval Overlay -->
+   <div class="offcanvas-overlay"></div>
+   <!-- Offcanval Overlay -->
+
+   <!-- Wrapper -->
+   <div class="wrapper">
+      <!-- Header -->
+      <header class="header white-bg fixed-top d-flex align-content-center flex-wrap">
+         <!-- Logo -->
+         <div class="logo">
+            <a href="../../../index.html" class="default-logo"><img src="../../../assets/img/logo.png" alt=""></a>
+            <a href="../../../index.html" class="mobile-logo"><img src="../../../assets/img/mobile-logo.png" alt=""></a>
+         </div>
+         <!-- End Logo -->
+
+         <!-- Main Header -->
+         <div class="main-header">
+            <div class="container-fluid">
+               <div class="row justify-content-between">
+                  <div class="col-3 col-lg-1 col-xl-4">
+                     <!-- Header Left -->
+                     <div class="main-header-left h-100 d-flex align-items-center">
+                        <!-- Main Header User -->
+                        <div class="main-header-user">
+                           <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                              <div class="menu-icon">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </div>
+
+                              <div class="user-profile d-xl-flex align-items-center d-none">
+                                 <!-- User Avatar -->
+                                 <div class="user-avatar">
+                                    <img src="../../../assets/img/avatar/user.png" alt="">
+                                 </div>
+                                 <!-- End User Avatar -->
+
+                                 <!-- User Info -->
+                                 <div class="user-info">
+                                    <h4 class="user-name">Mohammed Altujjar</h4>
+                                    <p class="user-email">mohammed_.1996@live.com</p>
+                                 </div>
+                                 <!-- End User Info -->
+                              </div>
+                           </a>
+                           <div class="dropdown-menu">
+                              <a href="#">My Profile</a>
+                              <a href="#">Settings</a>
+                              <a href="#">Log Out</a>
+                           </div>
+                        </div>
+                        <!-- End Main Header User -->
+
+                        <!-- Main Header Menu -->
+                        <div class="main-header-pin d-block d-lg-none">
+                           <div class="header-toogle-menu">
+                              <img src="../../../assets/img/menu.png" alt="">
+                           </div>
+                        </div>
+                        <!-- End Main Header Menu -->
+                     </div>
+                     <!-- End Header Left -->
+                  </div>
+                  <div class="col-9 col-lg-11 col-xl-8">
+                     <!-- Header Right -->
+                     <div class="main-header-right d-flex justify-content-end">
+                        <ul class="nav">
+                           <li class="d-none d-lg-flex">
+                              <!-- Main Header Time -->
+                              <div class="main-header-date-time text-right">
+                                 <h3 class="time">
+                                    <span id="hours">21</span>
+                                    <span id="point">:</span>
+                                    <span id="min">06</span>
+                                 </h3>
+                                 <span class="date"><span id="date">Tue, 12 October 2019</span></span>
+                              </div>
+                              <!-- End Main Header Time -->
+                           </li>
+
+                           <li class="order-2 order-sm-0">
+                              <!-- Main Header Search -->
+                              <div class="main-header-search">
+                                 <form action="#" class="search-form">
+                                    <div class="theme-input-group header-search">
+                                       <input type="text" class="theme-input-style" placeholder="Search Here">
+
+                                       <button type="submit"><img src="../../../assets/img/svg/search-icon.svg" alt=""
+                                             class="svg"></button>
+                                    </div>
+                                 </form>
+                              </div>
+                              <!-- End Main Header Search -->
+                           </li>
+                           <li>
+                              <!-- Main Header Messages -->
+                              <div class="main-header-message">
+                                 <a href="#" class="header-icon" data-toggle="dropdown">
+                                    <img src="../../../assets/img/svg/message-icon.svg" alt="" class="svg">
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right">
+                                    <!-- Dropdown Header -->
+                                    <div class="dropdown-header d-flex align-items-center justify-content-between">
+                                       <h5>3 Unread messages</h5>
+                                       <a href="#" class="text-mute d-inline-block">Clear all</a>
+                                    </div>
+                                    <!-- End Dropdown Header -->
+
+                                    <!-- Dropdown Body -->
+                                    <div class="dropdown-body">
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m1.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Sender Name</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m2.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Tonya Lee</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m3.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Cathy Nichols</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m4.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Hubert Griffith</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+                                    </div>
+                                    <!-- End Dropdown Body -->
+                                 </div>
+                              </div>
+                              <!-- End Main Header Messages -->
+                           </li>
+                           <li>
+                              <!-- Main Header Notification -->
+                              <div class="main-header-notification">
+                                 <a href="#" class="header-icon notification-icon" data-toggle="dropdown">
+                                    <span class="count" data-bg-img="../../../assets/img/count-bg.png">22</span>
+                                    <img src="../../../assets/img/svg/notification-icon.svg" alt="" class="svg">
+                                 </a>
+                                 <div class="dropdown-menu style--two dropdown-menu-right">
+                                    <!-- Dropdown Header -->
+                                    <div class="dropdown-header d-flex align-items-center justify-content-between">
+                                       <h5>5 New notifications</h5>
+                                       <a href="#" class="text-mute d-inline-block">Clear all</a>
+                                    </div>
+                                    <!-- End Dropdown Header -->
+
+                                    <!-- Dropdown Body -->
+                                    <div class="dropdown-body">
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus amet.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit
+                                                amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+                                    </div>
+                                    <!-- End Dropdown Body -->
+                                 </div>
+                              </div>
+                              <!-- End Main Header Notification -->
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- End Header Right -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End Main Header -->
+      </header>
+      <!-- End Header -->
+
+      <!-- Main Wrapper -->
+      <div class="main-wrapper">
+         <!-- Sidebar -->
+         <nav class="sidebar" data-trigger="scrollbar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header d-none d-lg-block">
+               <!-- Sidebar Toggle Pin Button -->
+               <div class="sidebar-toogle-pin">
+                  <i class="icofont-tack-pin"></i>
+               </div>
+               <!-- End Sidebar Toggle Pin Button -->
+            </div>
+            <!-- End Sidebar Header -->
+
+            <!-- Sidebar Body -->
+            <div class="sidebar-body">
+               <!-- Nav -->
+               <ul class="nav">
+                  <li class="nav-category">Main</li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-pie-chart"></i>
+                        <span class="link-title">Dashboard</span>
+                     </a>
+                  </li>
+                  <li class="nav-category">apps</li>
+                  
+                  <li>
+                     <a href="#">
+                        <i class="icofont-calendar"></i>
+                        <span class="link-title">project manager</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="pages/custom/projects/addProjects.html">Add Project</a></li>
+                        <li><a href="pages/custom/projects/allProjects.html">All projects</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+
+                  <li>
+                     <a href="#">
+                        <i class="icofont-card"></i>
+                        <span class="link-title">Services</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="pages/custom/services/allServices.html">All services</a></li>
+                        <li><a href="pages/custom/services/addService.html">add new service</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+
+                  <li>
+                     <a href="#">
+                        <i class="icofont-file-document"></i>
+                        <span class="link-title">invoice</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="#">Invoice List</a></li>
+                        <li><a href="#">add new</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+
+
+                  <li>
+                     <a href="#">
+                        <i class="icofont-price"></i>
+                        <span class="link-title">Expenses</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="#">Expenses List</a></li>
+                        <li><a href="#">Add new</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+
+                  <li>
+                     <a href="#">
+                        <i class="icofont-files-stack"></i>
+                        <span class="link-title">file manager</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="pages/custom/files/file-info.html">Files library</a></li>
+                        <li><a href="pages/custom/files/upload.html">upload new file</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="pages/apps/chat.html">
+                        <i class="icofont-wechat"></i>
+                        <span class="link-title">Chat</span>
+                     </a>
+                  </li>
+                  
+               </ul>
+               <!-- End Nav -->
+            </div>
+            <!-- End Sidebar Body -->
+         </nav>
+         <!-- End Sidebar -->
+
+         <!-- Main Content -->
+         <div class="main-content d-flex flex-column flex-md-row">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <!-- Invoice Header -->
+                     <div
+                        class="invoice-details-header card_color-bg d-flex align-items-sm-center flex-column flex-sm-row mb-30 justify-content-sm-between">
+                        <div class="d-flex align-items-center">
+                           <h2 class="regular mr-3 font-30">Project</h2>
+                           <h4 class="c4">#PRJ200501</h4>
+                        </div>
+
+                     </div>
+                     <!-- End Invoice Header -->
+
+                     <!-- Invoice Top -->
+                     <div class="invoice-pd c2-bg" data-bg-img="../../../assets/img/media/invoice-pattern.png">
+                        <div class="row">
+
+                           <div class="col-md-6">
+                              <!-- Invoice Right -->
+                              <div class="invoice-right mt-5 mt-md-0">
+                                 <ul class="status-list">
+                                    <li>
+                                       <span class="key font-14">Project Name:</span>
+                                       <input type="text" class="theme-input-style style--four">
+                                    </li>
+                                    <li>
+                                       <span class="key font-14">Budget:</span>
+                                       <input type="number" class="theme-input-style style--four">
+                                    </li>
+                                    <li>
+                                       <span class="key font-14">Start date:</span>
+                                       <input type="date" class="theme-input-style style--four">
+                                    </li>
+                                    <li>
+                                       <span class="key font-14">End date:</span>
+                                       <input type="date" class="theme-input-style style--four">
+                                    </li>
+
+                                 </ul>
+                              </div>
+                              <!-- End Invoice Right -->
+                           </div>
+                           <div class="col-md-6">
+                              <!-- Invoice Right -->
+                              <div class="invoice-right mt-5 mt-md-0">
+                                 <ul class="list-invoice">
+
+                                    <li>
+                                       <span class="key font-14">Project manager:</span>
+                                       <div class="custom-selectbox">
+                                          <select class="custom-select">
+                                             <option value="">Mohammad</option>
+                                             <option value="">Homam</option>
+                                             <option value="">Samer</option>
+                                             <option value="">Yazan</option>
+                                          </select>
+                                       </div>
+                                    </li>
+
+                                    <li>
+                                       <span class="key font-14">Priority:</span>
+                                       <div class="custom-selectbox">
+                                          <select class="custom-select NormalPriority" id="priority">
+                                             <option class="NormalPriority" value="NORMAL">Normal</option>
+                                             <option class="LowPriority" value="LOW">Low</option>
+                                             <option class="HighPriority" value="HIGH">High</option>
+                                          </select>
+                                       </div>
+                                    </li>
+
+
+                                    <li>
+                                       <span class="key font-14">Status:</span>
+                                       <div class="custom-selectbox">
+                                          <select class="custom-select">
+                                             <option value="COMPLETED">Completed</option>
+                                             <option value="INPROGRESS">In progress</option>
+                                             <option value="COMPLETED">Completed</option>
+                                             <option value="PEDNDINGPAYMENT">Pending payment</option>
+                                             <option value="CANCELLED">Cancelled</option>
+                                          </select>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <!-- End Invoice Right -->
+                           </div>
+
+
+                        </div>
+                     </div>
+                     <!-- End Invoice Top -->
+
+                     <!-- Invois Wrapper -->
+                     <div class="card_color-bg invoice-pd">
+                        <div class="row">
+                           <div class="col-xl-6 col-md-6">
+                              <!-- Invoice Form -->
+                              <div class="invoice edit invoice-form">
+                                 <div class="invoice-title c4 bold font-14 mb-3">Client info</div>
+
+                                 <ul class="list-invoice">
+                                    <li class="user">
+                                       <input type="text" class="theme-input-style style--three"
+                                          placeholder="Client name">
+                                    </li>
+
+                                    <li class="location">
+                                       <input type="text" class="theme-input-style style--three" placeholder="Address">
+                                    </li>
+
+                                    <li class="call">
+                                       <input type="number" class="theme-input-style style--three"
+                                          placeholder="00971 --- --- ---">
+                                    </li>
+                                    <li class="mail">
+                                       <input type="email" class="theme-input-style style--three"
+                                          placeholder="email address">
+                                    </li>
+                                 </ul>
+                              </div>
+                              <!-- End Invoice Form -->
+                           </div>
+
+                           <div class="col-xl-6 col-md-6">
+                              <!-- Invoice Payment Details -->
+                              <div class="invoice edit payment-details mt-5 mt-xl-0">
+                                 <div class="invoice-title c4 bold font-14 mb-3">Payment Details:</div>
+
+                                 <ul class="status-list">
+                                    <li>
+                                       <span class="key">Bank name</span>
+                                       <input type="text" class="theme-input-style style--three"
+                                          placeholder="Bank name">
+                                    </li>
+                                    <li><span class="key">SWIFT code</span>
+                                       <input type="text" class="theme-input-style style--three"
+                                          placeholder="SWIFT CODE">
+                                    </li>
+                                    <li>
+                                       <span class="key">IBAN</span>
+                                       <input type="text" class="theme-input-style style--three" placeholder="IBAN">
+                                    </li>
+                                    <li>
+                                       <span class="key">Country</span>
+                                       <input type="text" class="theme-input-style style--three" placeholder="Country">
+                                    </li>
+                                    <li>
+                                       <span class="key">TRN</span>
+                                       <input type="text" class="theme-input-style style--three" placeholder="TRN">
+                                    </li>
+
+                                 </ul>
+                              </div>
+                              <!-- End Invoice Payment Details -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Invois Wrapper -->
+
+                     <!-- Invoice Details List Wrapper -->
+                     <div class="card_color-bg details-list-wrap">
+                        <!-- <div class="row">
+                           <h4>Services</h4>
+                        </div> -->
+                        <div class="table-responsive position-relative repeater-default pb-4">
+
+                           <button data-repeater-create type="button" class="add-row-btn btn-circle">
+                              <img src="../../../assets/img/svg/plus_white.svg" alt="" class="svg">
+                           </button>
+
+                           <!-- Invoice List Table -->
+                           <table id="invoice-edit-list-table" class="invoice-list-table style-two text-nowrap">
+                              <thead>
+                                 <tr>
+                                    <th>#</th>
+                                    <th>Service name</th>
+                                    <th><span>Quantity</span></th>
+                                    <th><span>Cost</span></th>
+                                    <th><span>Total</span></th>
+                                    <th><span>VAT</span></th>
+                                    <th class="text-center"><span>Amount</span></th>
+                                 </tr>
+                              </thead>
+
+                              <tbody data-repeater-list="group-a" class="card_color-bg">
+                                 <tr data-repeater-item>
+                                    <td class="bold">#01</td>
+                                    <td>
+                                       <div class="custom-selectbox">
+                                          <select class="custom-select">
+                                             <option value="">Service 1</option>
+                                             <option value="">Service 2</option>
+                                             <option value="">Service 3</option>
+                                          </select>
+                                       </div>
+                                    </td>
+                                    <td><input type="text" class="theme-input-style style--three" value="1"></td>
+                                    <td><input type="text" class="theme-input-style style--three" value="100"></td>
+                                    <td><input type="text" class="theme-input-style style--three" value="100"></td>
+                                    <td><input type="text" class="theme-input-style style--three" value="5"></td>
+                                    <td class="text-right">
+                                       <div class="">
+                                          <span>105</span>
+                                          <span data-repeater-delete class="tr-close">
+                                             <img src="../../../assets/img/svg/table-colse.svg" alt="" class="svg">
+                                          </span>
+                                       </div>
+                                    </td>
+                                 </tr>
+
+                                 <tr data-repeater-item>
+                                    <td class="bold">#02</td>
+                                    <td>
+                                       <div class="custom-selectbox">
+                                          <select class="custom-select">
+                                             <option value="">Service 1</option>
+                                             <option value="">Service 2</option>
+                                             <option value="">Service 3</option>
+                                          </select>
+                                       </div>
+                                    </td>
+                                    <td><input type="text" class="theme-input-style style--three" value="1"></td>
+                                    <td><input type="text" class="theme-input-style style--three" value="100"></td>
+                                    <td><input type="text" class="theme-input-style style--three" value="100"></td>
+                                    <td><input type="text" class="theme-input-style style--three" value="5"></td>
+                                    <td class="text-right">
+                                       <div class="">
+                                          <span>105</span>
+                                          <span data-repeater-delete class="tr-close">
+                                             <img src="../../../assets/img/svg/table-colse.svg" alt="" class="svg">
+                                          </span>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <!-- End Invoice List Table -->
+                        </div>
+
+                        <!-- Cart Collaterals -->
+                        <div class="cart-collaterals style--two pt-4 pt-xl-0">
+                           <div class="cart_totals calculated_shipping">
+                              <table class="shop_table style-two">
+                                 <tbody>
+                                    <tr class="cart-subtotal">
+                                       <th>Subtotal</th>
+                                       <th>
+                                          <span class="Price-amount amount">
+                                             <span class="Price-currencySymbol">AED </span>200</span>
+                                       </th>
+                                    </tr>
+                                    <tr class="cart-tax">
+                                       <td>Tax (19%)</td>
+                                       <td>
+                                          <span class="Price-amount amount">
+                                             <span class="Price-currencySymbol">AED </span>10</span>
+                                       </td>
+                                    </tr>
+                                    <tr class="cart-tax">
+                                       <td>Discount (0%)</td>
+                                       <td>
+                                          <span class="Price-amount amount">
+                                             <span class="Price-currencySymbol">AED </span>0</span>
+                                       </td>
+                                    </tr>
+
+                                    <tr class="order-total">
+                                       <td>Total</td>
+                                       <td>
+                                          <strong>
+                                             <span class="Price-amount amount"><span
+                                                   class="Price-currencySymbol">AED</span>210</span>
+                                          </strong>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+
+                              <div
+                                 class="proceed-to-checkout invoice-edit d-flex align-items-center justify-content-end mr-20 mt-4">
+                                 <a href="#" class="btn preview">Export quotation</a>
+                                 <a href="#" class="btn">Save Now</a>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- End Cart Collaterals -->
+                     </div>
+                     <!-- End Invoice Details List Wrapper -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End Main Content -->
+      </div>
+      <!-- End Main Wrapper -->
+
+      <!-- Footer -->
+      <footer class="footer">
+         Awestruck PMS © 2023 all rights reserved.
+      </footer>
+      <!-- End Footer -->
+   </div>
+   <!-- End wrapper -->
+
+   <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
+   <script src="../../../assets/js/jquery.min.js"></script>
+   <script src="../../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="../../../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+   <script src="../../../assets/js/script.js"></script>
+   <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
+
+   <!-- ======= BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
+   <script src="../../../assets/plugins/jquery-repeater/repeater.min.js"></script>
+   <script src="../../../assets/plugins/jquery-repeater/custom-repeater.js"></script>
+   <!-- ======= End BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
+
+
+
+   <!-- ======= BEGIN CUSTOM SCRIPTS ======= -->
+
+   <script src="../../../assets/js/custom/addProject.js"></script>
+   <!-- ======= END CUSTOM SCRIPTS ======= -->
+
+</body>
+
+</html>
